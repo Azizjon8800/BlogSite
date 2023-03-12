@@ -1,0 +1,32 @@
+Ustanovka laravel
+Auth fortify
+bootstrap
+Model s Migration: Category Tag Post PostTag
+Migration:
+    Catagory:
+        title
+    Tag:
+        title
+    Post:
+        title
+        content
+        Category_id
+        index
+        foreignKey
+    PostTag:
+        post_id
+        tag_id
+        index post_id
+        index tag_id
+        foreignKey post_id
+        foreignKey tag_id
+route main
+IndexControler
+view
+    layout main
+        skachat fayldan blog.php kopi qilamiz
+    index
+skachat fayldan asset popkani publicga kopi qilamiz
+viewda link-scriptlarga asset() qoyib chiqamiz
+admin panel
+personal page
